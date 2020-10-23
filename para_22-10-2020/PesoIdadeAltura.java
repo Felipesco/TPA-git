@@ -10,7 +10,7 @@ public class PesoIdadeAltura {
 		
 		for (i = 1; i < 26; i++) {
 			
-			System.out.println(i+ "° Pessoa");
+			System.out.println(i+ "Â° Pessoa: ");
 			
 			System.out.println("Idade: ");
 			idade = leia.nextInt();
@@ -48,34 +48,33 @@ public class PesoIdadeAltura {
 		leia.close();
 		
 		mediaAltura = mediaAltura/25;
-		
-		media40 = ((pesoMenor40*100)/25);
+		media40 = (pesoMenor40*100)/25;
 		
 		System.out.println("Maiores de 50 anos: " +maior50);
-		System.out.println("A média da altura de 10 a 20 anos é de: " +mediaAltura);
-		System.out.println("Porcentagem pessoas com menos de 40 quilos é de: " +media40+ "% do total");
+		System.out.println("A mÃ©dia da altura de 10 a 20 anos Ã© de: " +mediaAltura);
+		System.out.println("Porcentagem pessoas com menos de 40 quilos Ã© de: " +media40+ "% do total");
 		System.out.println("Pesso da pessoa mais velha: " +pesoVelho);
 		System.out.println("Pesso da pessoa mais nova: " +pesoNovo);
-		System.out.println("Total de Pessoas: " + (i-1));
+		System.out.println("Total de participantes: " + (i-1));
 	}
 
 }
 	
 /* 
-Ok OK tô entrando em desespero 
-vamos lá 
+Ok OK tÃ´ entrando em desespero 
+vamos lÃ¡ 
 
 Ler a Idade 
 Ler a Altura 
 Ler o Peso (Por que o peso? estamos em quarentena kkkkk)
-Ler esses três de cada pessoa
+Ler esses trÃªs de cada pessoa
 
-São 25 pessoas então (i < 26)
+SÃ£o 25 pessoas entÃ£o (i < 26)
 _________________________________________________
 Depois de ler tudo:
 
 	--Mostrar as pessoas com MAIS de 50 anos
-	--MÉDIA de Altura De pessoas entre 10 e 20 anos 
+	--MÃ‰DIA de Altura De pessoas entre 10 e 20 anos 
 	--PORCENTAGEM das pessoas com MENOS de 40 quilos
 	--O PESO da pessoa mais VELHA
 	--O PESO da pessoa mais NOVA
